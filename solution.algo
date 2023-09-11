@@ -1,13 +1,17 @@
 ALGORITHM sum of all elements
 VAR
-    i,c,set1,set2:=INTEGER
+    i,j,,val:=INTEGER
 BEGIN
-    for i from 0 to length set1
-    step1
-    IF (t1[i]=t2[i]) THEN
-        i:=i1
-        else 
-        c:=i
-    END_IF
-    if
+    for i from 1 to length-1 step1
+  val=T[i]
+   j:=i-i
+
+   WHILE (j>0 and T[j]>val]) DO
+   T[j]:=val
+   t[j+1] =t[j]
+   j:=j-1
+END_FOR
+   END_WHILE
+   for i from 0 to length-1 step1
+   whrite [t[i]]
 END
